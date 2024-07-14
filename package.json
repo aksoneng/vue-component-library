@@ -6,7 +6,7 @@
   "license": "ISC",
   "main": "./src/index.js",
   "scripts": {
-    "publish": "npm version patch && npm publish"
+    "pub": "npm version patch && npm publish"
   },
   "dependencies": {
     "quasar": "legacy"
