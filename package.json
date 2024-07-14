@@ -5,7 +5,9 @@
   "author": "Antoine Schaller",
   "license": "ISC",
   "main": "./src/index.js",
-  "scripts": {},
+  "scripts": {
+    "publish": "npm version patch && npm publish"
+  },
   "dependencies": {
     "quasar": "legacy"
   },
