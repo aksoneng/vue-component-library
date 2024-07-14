@@ -1,7 +1,7 @@
 {
   "name": "@akson/ui-library",
   "description": "UI Library",
-  "version": "1.0.32",
+  "version": "1.0.33",
   "author": "Antoine Schaller",
   "license": "ISC",
   "main": "./src/index.js",
