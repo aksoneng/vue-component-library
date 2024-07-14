@@ -1,14 +1,16 @@
 {
-  "name": "brian-component-lib",
-  "version": "1.0.0",
+  "name": "@akson/ui-library",
+  "version": "1.0.3",
   "type": "module",
-  "files": ["dist"],
-  "main": "./dist/brian-component-lib.umd.cjs",
-  "module": "./dist/brian-component-lib.js",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/akson-ui-library.umd.cjs",
+  "module": "./dist/akson-ui-library.js",
   "exports": {
     ".": {
-      "import": "./dist/brian-component-lib.js",
-      "require": "./dist/brian-component-lib.umd.cjs"
+      "import": "./dist/akson-ui-library.js",
+      "require": "./dist/akson-ui-library.umd.cjs"
     },
     "./style.css": "./dist/style.css"
   },
@@ -20,8 +22,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.47",
-    "test-component-lib": "file:../test-component-lib"
+    "quasar": "^2.16.5",
+    "vue": "^3.2.47"
   },
   "devDependencies": {
     "@types/node": "^20.2.5",
