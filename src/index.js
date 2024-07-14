@@ -1,6 +1,6 @@
 import {
     ABtn
-} from './components/ABtn';
+} from './components/ABtn.vue';
 
 export {
     ABtn
